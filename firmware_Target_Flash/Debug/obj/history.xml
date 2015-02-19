@@ -1,0 +1,197 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -g0 -w -O0 -c -DSTM32F407VG -DSTM32F4XX -D__FPU_USED -DARM_MATH_CM4 -D__FPU_PRESENT -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -DSUPPORT_CPLUSPLUS -I..\..\..\..\..\..\..\..\..\Projects\mcHF-SDR\usb\usbh -I..\..\..\..\..\..\..\..\..\Projects\mcHF-SDR\usb\usbd -I..\..\..\..\..\..\..\..\..\Projects\mcHF-SDR\drivers\audio\codec -I..\..\..\..\..\..\..\..\..\Projects\mcHF-SDR\misc\v_eprom -I..\..\..\..\..\..\..\..\..\Projects\mcHF-SDR\usb\usbh\class -I..\..\..\..\..\..\..\..\..\Projects\mcHF-SDR\drivers\audio\softdds -I..\..\..\..\..\..\..\..\..\Projects\mcHF-SDR\usb\usbh\core\inc -I..\..\..\..\..\..\..\..\..\Projects\mcHF-SDR\usb\usbh\class\HID\inc -I..\..\..\..\..\..\..\..\..\Projects -I..\..\..\..\..\..\..\..\..\Projects\mcHF-SDR\usb\usbh\core -I..\..\..\..\..\..\..\..\..\Projects\mcHF-SDR\usb\usbd\class\cdc -I..\..\..\..\..\..\..\..\..\Projects\mcHF-SDR\cmsis_lib\include -I..\..\..\..\..\..\..\..\..\Projects\mcHF-SDR\usb\usbh\class\HID -I..\..\..\..\..\..\..\..\..\Projects\mcHF-SDR\hardware -I..\..\..\..\..\..\..\..\..\Projects\mcHF-SDR -I..\..\..\..\..\..\..\..\..\Projects\mcHF-SDR\drivers\ui\oscillator -I..\..\..\..\..\..\..\..\..\Projects\mcHF-SDR\drivers\ui\misc -I..\..\..\..\..\..\..\..\..\Projects\mcHF-SDR\drivers\ui\encoder -I..\..\..\..\..\..\..\..\..\Projects\mcHF-SDR\cmsis -I..\..\..\..\..\..\..\..\..\Projects\mcHF-SDR\drivers -I..\..\..\..\..\..\..\..\..\Projects\mcHF-SDR\usb\usbd\class\cdc\inc -I..\..\..\..\..\..\..\..\..\Projects\mcHF-SDR\drivers\cat\usb -I..\..\..\..\..\..\..\..\..\Projects\mcHF-SDR\drivers\ui -I..\..\..\..\..\..\..\..\..\Projects\mcHF-SDR\cmsis_boot -I..\..\..\..\..\..\..\..\..\Projects\mcHF-SDR\drivers\audio\cw -I..\..\..\..\..\..\..\..\..\Projects\mcHF-SDR\usb -I..\..\..\..\..\..\..\..\..\Projects\mcHF-SDR\drivers\keyboard -I..\..\..\..\..\..\..\..\..\Projects\mcHF-SDR\drivers\keyboard\usb -I..\..\..\..\..\..\..\..\..\Projects\mcHF-SDR\usb\usbd\core -I..\..\..\..\..\..\..\..\..\Projects\mcHF-SDR\usb\usbd\class -I..\..\..\..\..\..\..\..\..\Projects\mcHF-SDR\drivers\ui\lcd -I..\..\..\..\..\..\..\..\..\Projects\mcHF-SDR\drivers\cat -I..\..\..\..\..\..\..\..\..\Projects\mcHF-SDR\misc -I..\..\..\..\..\..\..\..\..\Projects\mcHF-SDR\drivers\audio\filters -I..\..\..\..\..\..\..\..\..\Projects\mcHF-SDR\usb\otg -I..\..\..\..\..\..\..\..\..\Projects\mcHF-SDR\drivers\audio -I..\..\..\..\..\..\..\..\..\Projects\mcHF-SDR\usb\usbd\class\audio\inc -I..\..\..\..\..\..\..\..\..\Projects\mcHF-SDR\usb\otg\inc -I..\..\..\..\..\..\..\..\..\Projects\mcHF-SDR\usb\usbd\class\audio -I..\..\..\..\..\..\..\..\..\Projects\mcHF-SDR\usb\usbd\core\inc -I..\..\..\..\..\..\..\..\..\Projects\mcHF-SDR\cmsis_lib">
+      <target file="softdds.o" lastModified="14ba3148e76">
+         <source file="..\..\..\drivers\audio\softdds\softdds.c" lastModified="14ba22edaf9"/>
+      </target>
+      <target file="stm32f4xx_fsmc.o" lastModified="14ba3147d05">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_fsmc.c" lastModified="14ba22ed6a7"/>
+      </target>
+      <target file="syscalls.o" lastModified="14ba3148190">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="14ba22eea94"/>
+      </target>
+      <target file="usbd_usr.o" lastModified="14ba3146e58">
+         <source file="..\..\..\drivers\cat\usb\usbd_usr.c" lastModified="14ba22edbcd"/>
+      </target>
+      <target file="usbh_usr.o" lastModified="14ba31482f8">
+         <source file="..\..\..\drivers\keyboard\usb\usbh_usr.c" lastModified="14ba22edc4d"/>
+      </target>
+      <target file="misc.o" lastModified="14ba31490ce">
+         <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="14ba22ed631"/>
+      </target>
+      <target file="audio_driver.o" lastModified="14ba314857f">
+         <source file="..\..\..\drivers\audio\audio_driver.c" lastModified="14ba30cdfcf"/>
+      </target>
+      <target file="ui_lcd_hy28.o" lastModified="14ba3147987">
+         <source file="..\..\..\drivers\ui\lcd\ui_lcd_hy28.c" lastModified="14ba22edd15"/>
+      </target>
+      <target file="keyb_driver.o" lastModified="14ba31472cd">
+         <source file="..\..\..\drivers\keyboard\keyb_driver.c" lastModified="14ba22edbe2"/>
+      </target>
+      <target file="usbd_ioreq.o" lastModified="14ba314962e">
+         <source file="..\..\..\usb\usbd\core\src\usbd_ioreq.c" lastModified="1363add9570"/>
+      </target>
+      <target file="mchf_hw_i2c2.o" lastModified="14ba314921f">
+         <source file="..\..\..\hardware\mchf_hw_i2c2.c" lastModified="14ba22ee3e7"/>
+      </target>
+      <target file="usbd_req.o" lastModified="14ba3148656">
+         <source file="..\..\..\usb\usbd\core\src\usbd_req.c" lastModified="1363add9570"/>
+      </target>
+      <target file="usb_otg.o" lastModified="14ba3148d2b">
+         <source file="..\..\..\usb\otg\src\usb_otg.c" lastModified="14ba22eebb3"/>
+      </target>
+      <target file="stm32f4xx_tim.o" lastModified="14ba314987e">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="14ba22ed746"/>
+      </target>
+      <target file="ui_si570.o" lastModified="14ba3148baf">
+         <source file="..\..\..\drivers\ui\oscillator\ui_si570.c" lastModified="14ba22eddbc"/>
+      </target>
+      <target file="usbd_cdc_core.o" lastModified="14ba3148a20">
+         <source file="..\..\..\usb\usbd\class\cdc\src\usbd_cdc_core.c" lastModified="14ba22eec42"/>
+      </target>
+      <target file="i2s.o" lastModified="14ba31483cb">
+         <source file="..\..\..\drivers\audio\codec\i2s.c" lastModified="14ba22ed7d4"/>
+      </target>
+      <target file="stm32f4xx_exti.o" lastModified="14ba3148f96">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_exti.c" lastModified="14ba22ed680"/>
+      </target>
+      <target file="usbd_desc.o" lastModified="14ba3147c6d">
+         <source file="..\..\..\drivers\cat\usb\usbd_desc.c" lastModified="14ba22edba6"/>
+      </target>
+      <target file="usbd_audio_out_if.o" lastModified="14ba3146cfb">
+         <source file="..\..\..\usb\usbd\class\audio\src\usbd_audio_out_if.c" lastModified="14ba22eec10"/>
+      </target>
+      <target file="stm32f4xx_gpio.o" lastModified="14ba3147e59">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="14ba22ed6b9"/>
+      </target>
+      <target file="cat_driver.o" lastModified="14ba3148c7c">
+         <source file="..\..\..\drivers\cat\cat_driver.c" lastModified="14ba22edb1e"/>
+      </target>
+      <target file="usbh_hid_keybd.o" lastModified="14ba31493a9">
+         <source file="..\..\..\usb\usbh\class\HID\src\usbh_hid_keybd.c" lastModified="1363add9570"/>
+      </target>
+      <target file="ui_menu.o" lastModified="14ba3148963">
+         <source file="..\..\..\drivers\ui\ui_menu.c" lastModified="14ba22edcc6"/>
+      </target>
+      <target file="ui_lcd_hy28_fonts.o" lastModified="14ba3147f1c">
+         <source file="..\..\..\drivers\ui\lcd\ui_lcd_hy28_fonts.c" lastModified="14ba22edd3c"/>
+      </target>
+      <target file="cw_gen.o" lastModified="14ba31492f9">
+         <source file="..\..\..\drivers\audio\cw\cw_gen.c" lastModified="14ba22ed7fc"/>
+      </target>
+      <target file="usbd_core.o" lastModified="14ba314746a">
+         <source file="..\..\..\usb\usbd\core\src\usbd_core.c" lastModified="14ba22eecb6"/>
+      </target>
+      <target file="mchf_hw_i2c.o" lastModified="14ba3147203">
+         <source file="..\..\..\hardware\mchf_hw_i2c.c" lastModified="14ba22ee3c5"/>
+      </target>
+      <target file="ui_driver.o" lastModified="14ba3149c22">
+         <source file="..\..\..\drivers\ui\ui_driver.c" lastModified="14ba2e61c26"/>
+      </target>
+      <target file="usbd_bsp.o" lastModified="14ba31496cc">
+         <source file="..\..\..\drivers\cat\usb\usbd_bsp.c" lastModified="14ba22edb45"/>
+      </target>
+      <target file="mchf_board.o" lastModified="14ba31494b0">
+         <source file="..\..\..\hardware\mchf_board.c" lastModified="14ba22ee3a1"/>
+      </target>
+      <target file="usbh_hid_mouse.o" lastModified="14ba314750f">
+         <source file="..\..\..\usb\usbh\class\HID\src\usbh_hid_mouse.c" lastModified="1363add9570"/>
+      </target>
+      <target file="stm32f4xx_usart.o" lastModified="14ba3146f9d">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_usart.c" lastModified="14ba22ed75a"/>
+      </target>
+      <target file="stm32f4xx_rtc.o" lastModified="14ba3149588">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rtc.c" lastModified="14ba22ed70c"/>
+      </target>
+      <target file="usbh_bsp.o" lastModified="14ba3147bbb">
+         <source file="..\..\..\drivers\keyboard\usb\usbh_bsp.c" lastModified="14ba22edc10"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="14ba31476ad">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="14ba22ed6f3"/>
+      </target>
+      <target file="ui_rotary.o" lastModified="14ba3146d92">
+         <source file="..\..\..\drivers\ui\encoder\ui_rotary.c" lastModified="14ba22edced"/>
+      </target>
+      <target file="stm32f4xx_dac.o" lastModified="14ba3147355">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_dac.c" lastModified="14ba22ed65b"/>
+      </target>
+      <target file="stm32f4xx_pwr.o" lastModified="14ba31470da">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_pwr.c" lastModified="14ba22ed6df"/>
+      </target>
+      <target file="eeprom.o" lastModified="14ba3149dc2">
+         <source file="..\..\..\misc\v_eprom\eeprom.c" lastModified="14ba22eea5b"/>
+      </target>
+      <target file="usb_hcd.o" lastModified="14ba3148aca">
+         <source file="..\..\..\usb\otg\src\usb_hcd.c" lastModified="14ba22eeb8e"/>
+      </target>
+      <target file="stm32f4xx_wwdg.o" lastModified="14ba3147150">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_wwdg.c" lastModified="14ba22ed76c"/>
+      </target>
+      <target file="stm32f4xx_adc.o" lastModified="14ba3147834">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_adc.c" lastModified="14ba22ed648"/>
+      </target>
+      <target file="stm32f4xx_flash.o" lastModified="14ba3147fcb">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_flash.c" lastModified="14ba22ed693"/>
+      </target>
+      <target file="usbd_audio_core.o" lastModified="14ba3149788">
+         <source file="..\..\..\usb\usbd\class\audio\src\usbd_audio_core.c" lastModified="14ba22eebfc"/>
+      </target>
+      <target file="usb_hcd_int.o" lastModified="14ba3149d13">
+         <source file="..\..\..\usb\otg\src\usb_hcd_int.c" lastModified="1363add9d40"/>
+      </target>
+      <target file="usb_dcd.o" lastModified="14ba314918c">
+         <source file="..\..\..\usb\otg\src\usb_dcd.c" lastModified="14ba22eeb67"/>
+      </target>
+      <target file="usbd_cdc_vcp.o" lastModified="14ba3148098">
+         <source file="..\..\..\drivers\cat\usb\usbd_cdc_vcp.c" lastModified="14ba22edb6b"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="14ba31473a2">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="14ba22ed482"/>
+      </target>
+      <target file="stm32f4xx_dma.o" lastModified="14ba3148220">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_dma.c" lastModified="14ba22ed66e"/>
+      </target>
+      <target file="usbh_hid_core.o" lastModified="14ba3147b19">
+         <source file="..\..\..\usb\usbh\class\HID\src\usbh_hid_core.c" lastModified="1363add9570"/>
+      </target>
+      <target file="usbh_stdreq.o" lastModified="14ba314705a">
+         <source file="..\..\..\usb\usbh\core\src\usbh_stdreq.c" lastModified="1363add9d40"/>
+      </target>
+      <target file="usbh_core.o" lastModified="14ba3147dd1">
+         <source file="..\..\..\usb\usbh\core\src\usbh_core.c" lastModified="14ba22eedd4"/>
+      </target>
+      <target file="printf.o" lastModified="14ba3147a5a">
+         <source file="..\..\..\stdio\printf.c" lastModified="14ba22eea81"/>
+      </target>
+      <target file="usb_core.o" lastModified="14ba3146c43">
+         <source file="..\..\..\usb\otg\src\usb_core.c" lastModified="14ba23bfe02"/>
+      </target>
+      <target file="stm32f4xx_i2c.o" lastModified="14ba3148f1c">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_i2c.c" lastModified="14ba22ed6cd"/>
+      </target>
+      <target file="stm32f4xx_syscfg.o" lastModified="14ba3146b0f">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_syscfg.c" lastModified="14ba22ed733"/>
+      </target>
+      <target file="stm32f4xx_spi.o" lastModified="14ba3148dc0">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_spi.c" lastModified="14ba22ed720"/>
+      </target>
+      <target file="main.o" lastModified="14ba3147607">
+         <source file="..\..\..\main.c" lastModified="14ba2e43004"/>
+      </target>
+      <target file="usbh_ioreq.o" lastModified="14ba3149051">
+         <source file="..\..\..\usb\usbh\core\src\usbh_ioreq.c" lastModified="1363add9d40"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="14ba314810b">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="14ba22ed45d"/>
+      </target>
+      <target file="usbh_hcs.o" lastModified="14ba3146eff">
+         <source file="..\..\..\usb\usbh\core\src\usbh_hcs.c" lastModified="1363add9d40"/>
+      </target>
+      <target file="usb_dcd_int.o" lastModified="14ba314871e">
+         <source file="..\..\..\usb\otg\src\usb_dcd_int.c" lastModified="1363add9d40"/>
+      </target>
+      <target file="codec.o" lastModified="14ba3147790">
+         <source file="..\..\..\drivers\audio\codec\codec.c" lastModified="14ba22ed7ad"/>
+      </target>
+   </processor>
+</history>

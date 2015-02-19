@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench version="2.0">
+<workbenchAdvisor/>
+<window>
+<fastViewData fastViewLocation="1024"/>
+<perspectiveBar/>
+<page focus="true" label="Workspace - CooCox CoBuilder">
+<editors>
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+</presentation>
+</folder>
+</info>
+</editorArea>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="audio_driver.c" partName="audio_driver.c" path="C:/Projects/mcHF-SDR/drivers/audio/audio_driver.c" title="audio_driver.c" tooltip="C:/Projects/mcHF-SDR/drivers/audio/audio_driver.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/firmware_Target/drivers/audio/audio_driver.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4345" selectionTopPixel="1305"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="C:/Projects/mcHF-SDR/main.c" title="main.c" tooltip="C:/Projects/mcHF-SDR/main.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/firmware_Target/main.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="9072" selectionTopPixel="5400"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="ui_driver.c" partName="ui_driver.c" path="C:/Projects/mcHF-SDR/drivers/ui/ui_driver.c" title="ui_driver.c" tooltip="C:/Projects/mcHF-SDR/drivers/ui/ui_driver.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/firmware_Target/drivers/ui/ui_driver.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="16375" selectionTopPixel="7560"/>
+</editor>
+</editors>
+<views>
+<view id="org.coocox.builder.ui.views.ProjectView" partName="Project">
+<viewState CommonNavigator.LINKING_ENABLED="0" horizontalPosition="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0" verticalPosition="19">
+<expanded>
+<element path="/firmware_Target"/>
+<element path="/firmware_Target/drivers"/>
+<element path="/firmware_Target/drivers/audio"/>
+<element path="/firmware_Target/drivers/audio/codec"/>
+<element path="/firmware_Target/drivers/cat"/>
+<element path="/firmware_Target/drivers/ui"/>
+<element path="/firmware_Target/drivers/ui/lcd"/>
+<element path="/firmware_Target/hardware"/>
+<element path="/firmware_Target/misc"/>
+<element path="/firmware_Target/misc/v_eprom"/>
+</expanded>
+<selection>
+<element path="/firmware_Target/main.c"/>
+</selection>
+</viewState>
+</view>
+<view id="org.eclipse.search.ui.views.SearchView" partName="Search">
+<viewState isPinned="false">
+<view IMemento.internal.id="" org.eclipse.search.lastActivation="0"/>
+<view IMemento.internal.id="org.eclipse.search.text.FileSearchResultPage" org.eclipse.search.lastActivation="1" org.eclipse.search.resultpage.layout="2" org.eclipse.search.resultpage.limit="1000" org.eclipse.search.resultpage.sorting="2"/>
+</viewState>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
+<viewState/>
+</view>
+</views>
+<perspectives activePart="org.eclipse.ui.console.ConsoleView" activePerspective="org.coocox.builder.perspective.CoBuilder">
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.coocox.builder.ui.PerspectiveCoBuilder" id="org.coocox.builder.perspective.CoBuilder" label="CooCox CoBuilder"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.coocox.welcome.ui.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<hide_menu_item_id id="org.coocox.codebugger.configuration.showMemoryAction"/>
+<hide_menu_item_id id="org.eclipse.jdt.ui.refactoring.menu"/>
+<hide_menu_item_id id="org.coocox.codebugger.configuration.ShowDisassemblyAction"/>
+<hide_menu_item_id id="org.coocox.codebugger.configuration.showExpressionsAction"/>
+<hide_menu_item_id id="org.coocox.codebugger.configuration.showDebugAction"/>
+<hide_menu_item_id id="org.coocox.codebugger.configuration.showConsoleAction"/>
+<hide_menu_item_id id="org.eclipse.cdt.debug.internal.ui.actions.ToggleInstructionStepModeAction"/>
+<hide_menu_item_id id="org.eclipse.jdt.ui.source.menu"/>
+<hide_menu_item_id id="org.coocox.codebugger.configuration.showMemoryBrowserAction"/>
+<hide_menu_item_id id="org.coocox.codebugger.configuration.showVariablesAction"/>
+<hide_menu_item_id id="org.coocox.builder.ui.openProjectExplorerAction"/>
+<hide_menu_item_id id="org.eclipse.debug.ui.commands.TerminateAndRelaunch"/>
+<hide_menu_item_id id="org.coocox.codebugger.trace.actions.ShowTraceControlAction"/>
+<hide_menu_item_id id="org.coocox.codebugger.configuration.showRegistersAction"/>
+<hide_toolbar_item_id id="org.eclipse.cdt.debug.internal.ui.actions.ToggleInstructionStepModeAction"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<hide_toolbar_item_id id="org.eclipse.debug.ui.commands.TerminateAndRelaunch"/>
+<view id="org.coocox.builder.ui.views.ProjectView"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.eclipse.search.ui.views.SearchView"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<fastViewBars/>
+<layout>
+<mainWindow>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@1c58fb9">
+<folder appearance="2" expanded="2">
+<page content="org.coocox.component.ui.ComponentView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="1434" ratioRight="478" relationship="2" relative="org.eclipse.ui.internal.ViewStack@1c58fb9">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@14e0f6a" ratio="0.6993865" ratioLeft="684" ratioRight="294" relationship="4" relative="org.eclipse.ui.internal.ViewStack@1c58fb9">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.eclipse.search.ui.views.SearchView" label="Search"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+<info part="org.coocox.builder.ui.exampleView" ratio="0.21966527" ratioLeft="420" ratioRight="1492" relationship="2" relative="org.eclipse.ui.internal.ViewStack@1c58fb9"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@1cbd22" ratio="0.7184265" ratioLeft="694" ratioRight="272" relationship="2" relative="org.coocox.builder.ui.exampleView">
+<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<page content="org.coocox.component.ui.Help" label="LabelNotFound"/>
+<page content="org.eclipse.debug.ui.BreakpointView" label="LabelNotFound"/>
+<page content="org.coocox.coassistant.view.CoAssistantView" label="LabelNotFound"/>
+<page content="org.coocox.builder.ui.MoreExampleView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.44989774" ratioLeft="440" ratioRight="538" relationship="4" relative="org.coocox.builder.ui.exampleView"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@15ec9f4" ratio="0.36912066" ratioLeft="361" ratioRight="617" relationship="4" relative="org.eclipse.ui.internal.ViewStack@1c58fb9">
+<folder activePageID="org.coocox.builder.ui.views.ProjectView" appearance="2" expanded="2">
+<page content="org.coocox.builder.ui.views.ProjectView" label="Project"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+</perspectives>
+<workingSets/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/firmware_Target/drivers/ui/ui_driver.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/firmware_Target/drivers/audio/audio_driver.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/firmware_Target/main.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/firmware_Target/hardware/mchf_board.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/firmware_Target/drivers/ui/encoder/ui_rotary.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/firmware_Target/main.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/firmware_Target/drivers/ui/ui_driver.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/firmware_Target/drivers/audio/audio_driver.c"/>
+</editors>
+<item historyLabel="main.c" index="2">
+<position info="not_deleted" x="9160" y="15"/>
+</item>
+<item historyLabel="main.c" index="2">
+<position info="not_deleted" x="22855" y="15"/>
+</item>
+<item historyLabel="mchf_board.c" index="3">
+<position info="not_deleted" x="27044" y="15"/>
+</item>
+<item historyLabel="mchf_board.c" index="3">
+<position info="not_deleted" x="27436" y="0"/>
+</item>
+<item historyLabel="mchf_board.c" index="3">
+<position info="not_deleted" x="10786" y="20"/>
+</item>
+<item historyLabel="main.c" index="2">
+<position info="not_deleted" x="22855" y="15"/>
+</item>
+<item historyLabel="main.c" index="2">
+<position info="not_deleted" x="9160" y="15"/>
+</item>
+<item historyLabel="main.c" index="2">
+<position info="not_deleted" x="12849" y="20"/>
+</item>
+<item historyLabel="main.c" index="2">
+<position info="not_deleted" x="21576" y="8"/>
+</item>
+<item historyLabel="mchf_board.c" index="3">
+<position info="not_deleted" x="10786" y="20"/>
+</item>
+<item historyLabel="mchf_board.c" index="3">
+<position info="not_deleted" x="13494" y="20"/>
+</item>
+<item historyLabel="mchf_board.c" index="3">
+<position info="not_deleted" x="28939" y="15"/>
+</item>
+<item historyLabel="mchf_board.c" index="3">
+<position info="not_deleted" x="27044" y="15"/>
+</item>
+<item historyLabel="mchf_board.c" index="3">
+<position info="not_deleted" x="24698" y="20"/>
+</item>
+<item historyLabel="mchf_board.c" index="3">
+<position info="not_deleted" x="23467" y="18"/>
+</item>
+<item historyLabel="mchf_board.c" index="3">
+<position info="not_deleted" x="22874" y="20"/>
+</item>
+<item historyLabel="mchf_board.c" index="3">
+<position info="not_deleted" x="21884" y="32"/>
+</item>
+<item historyLabel="mchf_board.c" index="3">
+<position info="not_deleted" x="19870" y="25"/>
+</item>
+<item historyLabel="mchf_board.c" index="3">
+<position info="not_deleted" x="19127" y="26"/>
+</item>
+<item historyLabel="mchf_board.c" index="3">
+<position info="not_deleted" x="19870" y="25"/>
+</item>
+<item historyLabel="mchf_board.c" index="3">
+<position info="not_deleted" x="20811" y="24"/>
+</item>
+<item historyLabel="mchf_board.c" index="3">
+<position info="not_deleted" x="19870" y="25"/>
+</item>
+<item historyLabel="mchf_board.c" index="3">
+<position info="not_deleted" x="10786" y="20"/>
+</item>
+<item historyLabel="mchf_board.c" index="3">
+<position info="not_deleted" x="8455" y="34"/>
+</item>
+<item historyLabel="mchf_board.c" index="3">
+<position info="not_deleted" x="9184" y="32"/>
+</item>
+<item historyLabel="mchf_board.c" index="3">
+<position info="not_deleted" x="6133" y="25"/>
+</item>
+<item historyLabel="mchf_board.c" index="3">
+<position info="not_deleted" x="4583" y="22"/>
+</item>
+<item historyLabel="mchf_board.c" index="3">
+<position info="not_deleted" x="6133" y="25"/>
+</item>
+<item historyLabel="mchf_board.c" index="3">
+<position info="not_deleted" x="12138" y="20"/>
+</item>
+<item historyLabel="mchf_board.c" index="3">
+<position info="not_deleted" x="2722" y="21"/>
+</item>
+<item historyLabel="mchf_board.c" index="3">
+<position info="not_deleted" x="8455" y="34"/>
+</item>
+<item historyLabel="mchf_board.c" index="3">
+<position info="not_deleted" x="28537" y="20"/>
+</item>
+<item historyLabel="mchf_board.c" index="3">
+<position info="not_deleted" x="27785" y="23"/>
+</item>
+<item historyLabel="ui_rotary.c" index="4">
+<position info="not_deleted" x="1493" y="23"/>
+</item>
+<item historyLabel="mchf_board.c" index="3">
+<position info="not_deleted" x="1140" y="0"/>
+</item>
+<item historyLabel="main.c" index="2">
+<position info="not_deleted" x="21576" y="8"/>
+</item>
+<item historyLabel="main.c" index="2">
+<position info="not_deleted" x="21590" y="0"/>
+</item>
+<item historyLabel="main.c" index="2">
+<position info="not_deleted" x="9235" y="13"/>
+</item>
+<item historyLabel="ui_driver.c" index="0">
+<position info="not_deleted" x="16266" y="13"/>
+</item>
+<item historyLabel="main.c" index="2">
+<position info="not_deleted" x="9228" y="0"/>
+</item>
+<item historyLabel="ui_driver.c" index="0">
+<position info="not_deleted" x="15828" y="0"/>
+</item>
+<item historyLabel="main.c" index="2">
+<position info="not_deleted" x="23906" y="16"/>
+</item>
+<item historyLabel="ui_driver.c" index="0">
+<position info="not_deleted" x="16375" y="0"/>
+</item>
+<item historyLabel="audio_driver.c" index="1">
+<position info="not_deleted" x="2758" y="0"/>
+</item>
+<item historyLabel="main.c" index="5">
+<position info="not_deleted" x="23906" y="16"/>
+</item>
+<item historyLabel="main.c" index="5">
+<position info="not_deleted" x="7855" y="18"/>
+</item>
+<item historyLabel="main.c" index="5">
+<position info="not_deleted" x="9160" y="15"/>
+</item>
+<item historyLabel="ui_driver.c" index="6">
+<position info="not_deleted" x="16375" y="0"/>
+</item>
+<item historyLabel="audio_driver.c" index="7">
+<position info="not_deleted" x="4345" y="0"/>
+</item>
+<item active="true" historyLabel="main.c" index="5">
+<position info="not_deleted" x="9311" y="0"/>
+</item>
+</navigationHistory>
+<input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
+</page>
+<workbenchWindowAdvisor/>
+<actionBarAdvisor/>
+</window>
+<mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="ui_driver.c" tooltip="firmware_Target/drivers/ui/ui_driver.c">
+<persistable path="/firmware_Target/drivers/ui/ui_driver.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="ui_rotary.c" tooltip="firmware_Target/drivers/ui/encoder/ui_rotary.c">
+<persistable path="/firmware_Target/drivers/ui/encoder/ui_rotary.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="mchf_board.c" tooltip="firmware_Target/hardware/mchf_board.c">
+<persistable path="/firmware_Target/hardware/mchf_board.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="firmware_Target/main.c">
+<persistable path="/firmware_Target/main.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="audio_driver.c" tooltip="firmware_Target/drivers/audio/audio_driver.c">
+<persistable path="/firmware_Target/drivers/audio/audio_driver.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="usb_core.c" tooltip="firmware_Target/usb/otg/src/usb_core.c">
+<persistable path="/firmware_Target/usb/otg/src/usb_core.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="i2s.c" tooltip="firmware_Target/drivers/audio/codec/i2s.c">
+<persistable path="/firmware_Target/drivers/audio/codec/i2s.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="arm_math.h" tooltip="firmware_Target/cmsis/arm_math.h">
+<persistable path="/firmware_Target/cmsis/arm_math.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="mchf_hw_i2c.h" tooltip="firmware_Target/hardware/mchf_hw_i2c.h">
+<persistable path="/firmware_Target/hardware/mchf_hw_i2c.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="fir_2_3k.h" tooltip="firmware_Target/drivers/audio/filters/fir_2_3k.h">
+<persistable path="/firmware_Target/drivers/audio/filters/fir_2_3k.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="codec.h" tooltip="firmware_Target/drivers/audio/codec/codec.h">
+<persistable path="/firmware_Target/drivers/audio/codec/codec.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="audio_driver.h" tooltip="firmware_Target/drivers/audio/audio_driver.h">
+<persistable path="/firmware_Target/drivers/audio/audio_driver.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="i_tx_filter.h" tooltip="firmware_Target/drivers/audio/filters/i_tx_filter.h">
+<persistable path="/firmware_Target/drivers/audio/filters/i_tx_filter.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="codec.c" tooltip="firmware_Target/drivers/audio/codec/codec.c">
+<persistable path="/firmware_Target/drivers/audio/codec/codec.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="codec.c" tooltip="firmware_Target/drivers/audio/codec/codec.c">
+<persistable path="/firmware_Target/drivers/audio/codec/codec.c"/>
+</file>
+</mruList>
+</workbench>
